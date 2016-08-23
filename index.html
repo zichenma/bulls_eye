@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>bullsEyeIterateSlider</title>
+    <style>
+        html{
+            display:flex;
+            justify-content: center; 
+        } 
+    </style>
+    <script src="bullsEyeIterateSlider.js"></script>
+</head>
+<body>
+<h1><strong><a href="http://digitalmedia.neu.edu/dgm6501f15mazi/bullseye" target="_blank">Bulls Eye</strong></a></h1>
+
+<canvas id="Canvas" width="400" height="400"></canvas>
+    <br />
+<h2>
+    <label for="bandWidth">Band Width:</label>
+    <input type="range" id="bandWidth" min="5" max="50"
+           step="5" value="25"
+           onchange="init()">
+</h2>
+</body>
+</html>
